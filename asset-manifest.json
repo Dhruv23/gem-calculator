@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gem-calculator/static/css/main.7e9414e2.css",
-    "main.js": "/gem-calculator/static/js/main.a0610dfa.js",
+    "main.js": "/gem-calculator/static/js/main.63c69dff.js",
     "static/js/453.98262b1d.chunk.js": "/gem-calculator/static/js/453.98262b1d.chunk.js",
     "index.html": "/gem-calculator/index.html",
     "main.7e9414e2.css.map": "/gem-calculator/static/css/main.7e9414e2.css.map",
-    "main.a0610dfa.js.map": "/gem-calculator/static/js/main.a0610dfa.js.map",
+    "main.63c69dff.js.map": "/gem-calculator/static/js/main.63c69dff.js.map",
     "453.98262b1d.chunk.js.map": "/gem-calculator/static/js/453.98262b1d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e9414e2.css",
-    "static/js/main.a0610dfa.js"
+    "static/js/main.63c69dff.js"
   ]
 }
