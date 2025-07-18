@@ -10,6 +10,11 @@ export default function HomePage() {
                         Winner Selection
                     </Link>
                     <p className="subtext">More events coming soon</p>
+                    <Link to="/honor" className="nav-link">
+                        Honor of Arena
+                    </Link>
+                    <p className="subtext">Track arena ticket + summon progress</p>
+
                 </div>
             </div>
         </div>

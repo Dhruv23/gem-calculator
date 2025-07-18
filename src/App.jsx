@@ -9,6 +9,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/winner" element={<GemCalculator />} />
+                <Route path="/honor" element={<HonorOfArena />} />
             </Routes>
         </Router>
     );
