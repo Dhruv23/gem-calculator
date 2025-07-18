@@ -14,6 +14,18 @@ export default function HomePage() {
                         Honor of Arena
                     </Link>
                     <p className="subtext">Track arena ticket + summon progress</p>
+                    <Link to="/find" className="nav-link">Find a Hero</Link>
+                    <p className="subtext">350 pet summons</p>
+
+                    <Link to="/soul" className="nav-link">Soul Quests Carnival</Link>
+                    <p className="subtext">1000 hero summons</p>
+
+                    <Link to="/mimic" className="nav-link">Mimic Capture</Link>
+                    <p className="subtext">400 hero summons</p>
+
+                    <Link to="/boss" className="nav-link">Special Boss</Link>
+                    <p className="subtext">400 hero summons</p>
+
 
                 </div>
             </div>

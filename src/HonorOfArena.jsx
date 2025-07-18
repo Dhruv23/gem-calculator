@@ -31,35 +31,37 @@ export default function HonorOfArena() {
     };
 
     return (
-        <div className="card">
-            <h1>Honor of Arena</h1>
-            <label>
-                Hero Summons:
-                <input
-                    type="number"
-                    value={heroSummons}
-                    onChange={(e) => setHeroSummons(e.target.value)}
-                />
-            </label>
-            <label>
-                Arena Tickets:
-                <input
-                    type="number"
-                    value={arenaTix}
-                    onChange={(e) => setArenaTix(e.target.value)}
-                />
-            </label>
-            <button onClick={calculate}>Calculate</button>
+        <div className="app-container">
+            <div className="card">
+                <h1>Honor of Arena</h1>
+                <label>
+                    Hero Summons:
+                    <input
+                        type="number"
+                        value={heroSummons}
+                        onChange={(e) => setHeroSummons(e.target.value)}
+                    />
+                </label>
+                <label>
+                    Arena Tickets:
+                    <input
+                        type="number"
+                        value={arenaTix}
+                        onChange={(e) => setArenaTix(e.target.value)}
+                    />
+                </label>
+                <button onClick={calculate}>Calculate</button>
 
-            {result && (
-                <div className="result">
-                    <p>🧝‍♂️ Remaining Hero Summons: <strong>{result.heroRemaining}</strong></p>
-                    <p>🎟️ Remaining Arena Tickets: <strong>{result.tixRemaining}</strong></p>
-                    <p>🛒 Purchases Needed: <strong>{result.purchasesNeeded}</strong></p>
-                    <p>📆 Days Needed (max 2 per day): <strong>{result.daysNeeded}</strong></p>
-                    <p>💎 Total Gem Cost: <strong>{result.gemCost}</strong></p>
-                </div>
-            )}
+                {result && (
+                    <div className="result">
+                        <p>🧝‍♂️ Remaining Hero Summons: <strong>{result.heroRemaining}</strong></p>
+                        <p>🎟️ Remaining Arena Tickets: <strong>{result.tixRemaining}</strong></p>
+                        <p>🛒 Purchases Needed: <strong>{result.purchasesNeeded}</strong></p>
+                        <p>📆 Days Needed (max 2 per day): <strong>{result.daysNeeded}</strong></p>
+                        <p>💎 Total Gem Cost: <strong>{result.gemCost}</strong></p>
+                    </div>
+                )}
+            </div>
         </div>
     );
 }
