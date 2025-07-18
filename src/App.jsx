@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './HomePage';
 import GemCalculator from './GemCalculator';
 import './App.css';
